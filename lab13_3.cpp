@@ -2,7 +2,6 @@
 
 using namespace std;
 
-int a,b;
 void mySwap(int &,int &); 
 
 int main(){
@@ -18,8 +17,7 @@ int main(){
 }
 
 void mySwap(int &x,int &y){
-    a = x;
-    b = y;
-    x = b;
+    int a = x;
+    x = y;
     y = a;
 }
